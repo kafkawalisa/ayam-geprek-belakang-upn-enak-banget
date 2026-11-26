@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dbet7yrnfr44o"]
+
+[ext_resource type="Texture2D" uid="uid://b0phbx65kbphg" path="res://tes/Hornet_Idle.png" id="1_71vty"]
+
+[node name="Node2D" type="Node2D" unique_id=1425104469]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1243660098]
+position = Vector2(563, 446.99997)
+scale = Vector2(0.4903226, 0.4903226)
+texture = ExtResource("1_71vty")
