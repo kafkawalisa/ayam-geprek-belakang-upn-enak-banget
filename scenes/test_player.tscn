@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://fwwfkuv5mfn4"]
+
+[ext_resource type="Script" uid="uid://nfe1pkbu0np4" path="res://scripts/test_player.gd" id="1_0ax77"]
+[ext_resource type="Texture2D" uid="uid://b0phbx65kbphg" path="res://assets/images/test_hornet/Hornet_Idle.png" id="1_erogg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k48uh"]
+size = Vector2(141.17648, 356.86276)
+
+[node name="Player" type="CharacterBody2D" unique_id=1797462761]
+scale = Vector2(0.51, 0.51)
+script = ExtResource("1_0ax77")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=525047492]
+texture = ExtResource("1_erogg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=14576473]
+shape = SubResource("RectangleShape2D_k48uh")
